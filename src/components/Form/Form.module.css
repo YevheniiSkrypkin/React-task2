@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(176,203,223,1) 42%, rgba(155,188,213,1) 66%, rgba(134,174,204,1) 90%, rgba(134,174,204,1) 98%);
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputsWrapper div {
+    margin: 10px;
+}
+
+.inputsWrapper {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #3a3a3a;
+}

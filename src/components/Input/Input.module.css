@@ -1,0 +1,9 @@
+input {
+    width: 100%;
+    background-color: #eef8fa;
+    margin-top: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+}
