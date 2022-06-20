@@ -22,7 +22,14 @@ class Textarea extends React.Component {
             <div>
                 <label>{this.props.label}
                     <br />
-                    <textarea rows={this.props.rows} maxLength={maxLength} required ref={this.areaRef} onChange={this.handleChange} value={value} placeholder={`Введите ${this.props.label.toLowerCase()}`} />
+                    <textarea 
+                        rows={this.props.rows} 
+                        maxLength={maxLength} 
+                        required ref={this.areaRef} 
+                        onChange={this.handleChange} 
+                        value={value} 
+                        placeholder={`Введите ${this.props.label.toLowerCase()}`} 
+                      />
                     <br />
                     <span> {value.length < 600 ? `${maxLength - value.length} / 600 символов` : 'Превышен лимит символов'}</span>
                 </label>
