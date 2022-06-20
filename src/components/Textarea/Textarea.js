@@ -5,7 +5,6 @@ class Textarea extends React.Component {
     constructor(props) {
         super(props);
         this.state = {length: 0}
-
     }
     
     handleChange = (e) => {
