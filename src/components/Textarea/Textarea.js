@@ -14,14 +14,7 @@ class Textarea extends React.Component {
         this.setState({length: e.target.value.length}) 
     }
 
-
-
-
-
-
-
     render () {
-        // const textAreaValue = this.props.textAreaValue;
         const {
             maxLength,
             value
